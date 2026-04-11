@@ -14,7 +14,9 @@ A model accuracy of 73% was achieved while maintaining a disparate impact ratio 
 | Metric | Baseline Model | Added Features Model | Tuned Model |
 | :--- | :---: | ---: | ---: |
 | Accuracy | 72.5% | 73.0% | 72.0% |
-| Disparate Impact (DI) | 0.985 | 0.942 | 0.933 |
+| Disparate Impact (DI) | 0.985 | 0.942 | 0.933 |  
+
+<p align = "center"><img src = images/ConfusionMatrices.png alt = "Confusion Matrices of 3 models"></p>
 
 **3. Fairness vs. Accuracy Analysis**  
 The first two models may serve as an indicator that, for accuracy to increase, the disparate impact ratio may decrease. In this scenario, the accuracy does not change by much, and the both DI ratios are still well above the 0.8 threshold for the disparate impact framework. However, it will be interested to see that, if accuracy could further improve, whether DI could continue to drop to a level below the acceptable threshold.  
